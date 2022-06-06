@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Geolocation Project</string>
     <string name="get_may_location">Get Location</string>
+    <string name="access_geolocation_dialog_title">Grant access to geolocation</string>
+    <string name="access_geolocation_dialog_positive_button_text">Yes</string>
+    <string name="access_geolocation_dialog_negative_button_text">No</string>
 </resources>

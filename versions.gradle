@@ -1,4 +1,5 @@
 ext.versions = [
-    googleMap   : "18.0.2",
-    location    : "19.0.1",
+        googleMap           : "18.0.2",
+        location            : "19.0.1",
+        permissionDispatcher: "4.8.0",
 ]

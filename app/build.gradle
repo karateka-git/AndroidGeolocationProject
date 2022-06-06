@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 apply from: "$rootDir/versions.gradle"
@@ -49,4 +50,8 @@ dependencies {
     // GoogleMap
     implementation "com.google.android.gms:play-services-maps:${versions.googleMap}"
     implementation "com.google.android.gms:play-services-location:${versions.location}"
+
+    // Permission dispatcher
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher:$versions.permissionDispatcher"
+    kapt "com.github.permissions-dispatcher:permissionsdispatcher-processor:$versions.permissionDispatcher"
 }
