@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Geolocation Project</string>
+    <string name="get_may_location">Get Location</string>
 </resources>
