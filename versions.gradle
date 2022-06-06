@@ -1,0 +1,4 @@
+ext.versions = [
+    googleMap   : "18.0.2",
+    location    : "19.0.1",
+]
